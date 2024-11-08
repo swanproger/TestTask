@@ -19,7 +19,18 @@ export default function MostPageBlock() {
           suscipit nibh lacus tincidunt ante
         </ContentMostText>
       </ContentMostTexts>
-      <ContentMostVideo></ContentMostVideo>
+      <ContentMostVideo>
+        <iframe
+          width="500"
+          height="300"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=uIVRoofYckumZZ8k"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </ContentMostVideo>
     </ContentMost>
   );
 }

@@ -10,8 +10,10 @@ export const ContentMostTexts = styled.div`
   padding: 20px 0 0 30px;
 `;
 export const ContentMostVideo = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 70%;
-  border: 1px solid black;
 `;
 export const ContentMostTextTitle = styled.h1``;
 export const ContentMostText = styled.p`
